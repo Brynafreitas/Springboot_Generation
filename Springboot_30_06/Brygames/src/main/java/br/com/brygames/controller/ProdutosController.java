@@ -55,7 +55,7 @@ public class ProdutosController {
 	}
 	
 	@DeleteMapping ("/{id}")
-	public void deleteCategoria(@PathVariable long id){
+	public void deleteProdutos(@PathVariable long id){
 		produtosRepository.deleteById(id);
 		
 	}
